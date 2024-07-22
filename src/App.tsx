@@ -1,11 +1,9 @@
 import "./App.css";
+import { router } from "./routes";
+import { RouterProvider } from "react-router-dom";
 
 function App() {
-  return (
-    <div>
-      <h1>Criando Rotas</h1>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
